@@ -9,7 +9,7 @@
 #define SMTP_HOST "smtp.libero.it"            // <------------ servizio posta smtp mittente
 #define SMTP_PORT esp_mail_smtp_port_465      // <------------ porta smtp server
 /* The log in credentials */
-#define AUTHOR_EMAIL "RECIPIENT@gmail.com"       // <------------ mail mittente
+#define AUTHOR_EMAIL "SENDER@gmail.com"       // <------------ mail mittente
 #define AUTHOR_PASSWORD "PASSWORD"          // <------------ password mail mittente
 #define ESP_NAME "ESP Mahler"
 #define OGGETTO "Test calorimetro di Mahler"
