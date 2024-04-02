@@ -1,14 +1,14 @@
-# Mahler
 ESP 32 data logger for Mahler calorimeter
+‐------------------------------------------------------------------------------------------
 
-/******************************************************************************************************************/
-
-CONFIGURAZIONE:
+CONFIGURAZIONE
+‐------------------------------
 I file da modificare prima della compilazione sono:
 1) mail_conf.h -> contiene i parametri di configurazione della mail del mittente e del ricevente;
 2) parametri_prova.h    -> contiene il numero massimo di misure da fare e il tempo tra le stesse in millisecondi.
 
-USO:
+USO
+----
 1) Attivare l'ESP32;
 2.a) Se la rete non è configurata, connettersi a "MahlerAP" con un cellulare o altro;
 2.b) Se si vuole cambiare la rete cui si connette ESP, in modalità OZIOSO schiacciare per 10s il pulsante
@@ -20,10 +20,10 @@ USO:
 7) Se si vuole interrompere in anticipo il test, schiacciare il pulsante per circa 2s;
 8) Al termine della prova il led diventa viola, viene inviata la mail con il file delle letture;
 9) Il led torna verde lampaggiante e può essere eseguita una nuova prova.
+********************************************************************************************************
 
-/******************************************************************************************************************/
-
-CONFIGURATION:
+CONFIGURATION
+-----------‐-----
 Before compiling, please alter the following two files:
 1) mail_conf.h -> contains the emai configuration parameters: imap, port, sender and recipient;
 2) parametri_prova.h -> contains the number of measurements and the interval time between them expressed in milliseconds;
